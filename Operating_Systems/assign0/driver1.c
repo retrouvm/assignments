@@ -32,8 +32,13 @@ int main(int argc, char *arvg[])
 
   printf("Enter a name to test your ReadLine function  : ");
   name = ReadLine();
-  printf("User entered : %s \n", name);  
-  free(name);
+  if (name != NULL){
+    printf("User entered : %s \n", name);  
+    free(name);
+  }
+  else {
+    printf("Memory allocation error\n");
+    }
 
   return 0;
 }
@@ -75,16 +80,48 @@ int main(int argc, char *arvg[])
  */
 char *ReadLine()
 {
-  // A SIMPLE WAY TO IMPLEMENT JUST TO TEST FOR NOW, BUT THIS IS NOT WHAT WE WANT!!!
-  char *buff = malloc(100);
-  scanf("%s", buff);
-  return buff;
+  int initialBufferSize = 10;
+    char *buffer = (char *)malloc(initialBufferSize); // Allocate initial buffer
+    if (buffer == NULL) {
+        return NULL; // Return NULL on memory allocation failure
+    }
 
+    int size = initialBufferSize;
+    int length = 0;
+    char c;
 
-  // YOU NEED TO DELETE ABOVE 3 LINES, and IMPLEMENT THSI as described above
-  
+    while (1) {
+        c = getchar(); // Read one character at a time
 
-  return(NULL);   // if there is any error!
+        if (c == '\n' || c == EOF) {
+            break; // Stop if newline or end of file is encountered
+        }
+
+        buffer[length] = c;
+        length++;
+
+        if (length == size - 1) {
+            // If buffer is full, resize it by doubling its size
+            size *= 2;
+            char *newBuffer = (char *)realloc(buffer, size);
+            if (newBuffer == NULL) {
+                free(buffer);
+                return NULL; // Return NULL on memory allocation failure
+            }
+            buffer = newBuffer;
+        }
+    }
+
+    buffer[length] = '\0'; // Null-terminate the string
+
+    // Resize the buffer to fit the actual length of the string
+    char *finalBuffer = (char *)realloc(buffer, length + 1);
+    if (finalBuffer == NULL) {
+        free(buffer);
+        return NULL; // Return NULL on memory allocation failure
+    }
+
+    return finalBuffer;
 }
 
    
