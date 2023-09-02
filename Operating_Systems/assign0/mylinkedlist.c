@@ -1,6 +1,5 @@
 /*
- * File: mylinkedlist.c
- * YOUR NAME ... 
+ * File: mylinkedlist.c 
  * YOU NEED TO IMPLEMENT THE FUNCTIONS  here
  * ....
  */

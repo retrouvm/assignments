@@ -1,6 +1,6 @@
 /*
  * File: driver1.c
- * YOUR NAME ... YOU NEED TO IMPLEMENT THE main() + additional functions if needed
+ * YOU NEED TO IMPLEMENT THE main() + additional functions if needed
  *
  * ....
  */
