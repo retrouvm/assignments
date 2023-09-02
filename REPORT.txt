@@ -1,0 +1,4 @@
+1. I only discussed how to run the program within VSCode with other students, I do not know their names though, since we communicated through discord.
+2. I do not think everything I did is correct. But when I ran into issues and errors, I tried to fix them using ChatGPT for better understanding of why I was getting such errors
+3. I haven't tried to test to see what's broken if anything since i was able to make a full pass through all the choices with no errors
+4. Some challenges I faced was getting comfortable with C after not using it for over a year, and also having to go back to my basics and fundamentals of data structures, which was always a very hard class for me to understand.
