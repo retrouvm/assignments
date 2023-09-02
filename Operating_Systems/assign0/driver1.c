@@ -29,6 +29,11 @@ int main(int argc, char *arvg[])
 
   int choice;
   linked_list_T *list = NewLinkedList();
+  
+  if (list == NULL) {
+    fprintf(stderr, "Error: Failed to initialize the linked list.\n");
+    // Handle the error, possibly by exiting the program or taking appropriate action.
+}
 
   do {
       printf("\nMenu:\n");
@@ -99,7 +104,14 @@ int main(int argc, char *arvg[])
                     int index;
                     printf("Enter the index of the student: ");
                     scanf("%d", &index);
-
+                    if (list->head == NULL) {
+                        fprintf(stderr, "Error: The linked list is empty.\n");
+                        // Handle the error, possibly by notifying the user or taking appropriate action.
+                    }
+                    if (index < 0 || index >= LinkedListLength(list)) {
+                        fprintf(stderr, "Error: Invalid index. It is out of bounds.\n");
+                        // Handle the error, possibly by notifying the user or taking appropriate action.
+                    }
                     student_cell_T *element = GetLinkedListElement(list, index);
                     if (element != NULL) {
                         printf("Student - ID: %d, GPA: %.2lf, Name: %s\n", element->id, element->gpa, element->name);

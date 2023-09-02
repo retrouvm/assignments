@@ -159,14 +159,15 @@ int LinkedListIsFull(linked_list_T *list)
  */
 int LinkedListLength(linked_list_T  *list)
 {
-  student_cell_T *current = list->head;
+  int count = 0;
+    student_cell_T *current = list->head;
+
     while (current != NULL) {
-        student_cell_T *next = current->next; // Store the next cell before freeing the current one
-        free(current->name); // Free the name (char*) field
-        free(current); // Free the student cell
-        current = next; // Move to the next cell
+        count++;
+        current = current->next;
     }
-    free(list); // Finally, free the linked list structure itself
+
+    return count;
 }
 
 /*
