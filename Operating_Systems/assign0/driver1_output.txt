@@ -1,0 +1,181 @@
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 1
+Enter student ID: 0
+Enter student GPA: 2.4
+Enter student name: Jack Daniels
+Student added successfully.
+
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 1
+Enter student ID: 1
+Enter student GPA: 3.6
+Enter student name: Henessy
+Student added successfully.
+
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 1
+Enter student ID: 2
+Enter student GPA: 0.75
+Enter student name: Jagermeister
+Student added successfully.
+
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 1
+Enter student ID: 3
+Enter student GPA: 1.65
+Enter student name: Irish Whiskey
+Student added successfully.
+
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 1
+Enter student ID: 4
+Enter student GPA: 4.0
+Enter student name: Bacardi Rum
+Student added successfully.
+
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 1
+Enter student ID: 5
+Enter student GPA: 3.0
+Enter student name: Jinro Soju
+Student added successfully.
+
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 2
+Removed student - ID: 0, GPA: 2.40, Name: Jack Daniels
+
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 3
+Number of students in the list: 5
+
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 4
+Enter the index of the student: 3
+Student - ID: 4, GPA: 4.00, Name: Bacardi Rum
+
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 5
+List of Students:
+ID: 1, GPA: 3.60, Name: Henessy
+ID: 2, GPA: 0.75, Name: Jagermeister
+ID: 3, GPA: 1.65, Name: Irish Whiskey
+ID: 4, GPA: 4.00, Name: Bacardi Rum
+ID: 5, GPA: 3.00, Name: Jinro Soju
+
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 6
+Min GPA: 0.75
+Average GPA: 2.60
+Max GPA: 4.00
+
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 7
+Removed student with highest GPA - ID: 4, GPA: 4.00, Name: Bacardi Rum
+
+Menu:
+1 - Create a new student
+2 - Remove the first student
+3 - Print the number of students
+4 - Print student info by index
+5 - Print the list of all students
+6 - Print min, avg, max GPAs
+7 - Remove student with highest GPA
+8 - Exit
+Enter your choice: 8
+Exiting program.
