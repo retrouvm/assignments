@@ -64,7 +64,14 @@ linked_list_T *NewLinkedList(void)
  */
 void FreeLinkedList(linked_list_T *list)
 {
-
+  student_cell_T *current = list->head;
+    while (current != NULL) {
+        student_cell_T *next = current->next; // Store the next cell before freeing the current one
+        free(current->name); // Free the name (char*) field
+        free(current); // Free the student cell
+        current = next; // Move to the next cell
+    }
+    free(list); // Finally, free the linked list structure itself
 }
 
 /*
@@ -75,7 +82,24 @@ void FreeLinkedList(linked_list_T *list)
  */
 void Enlist(linked_list_T *list, student_cell_T *element)
 {
+  // Ensure that the element is not NULL
+    if (element == NULL) {
+        fprintf(stderr, "Error: Cannot add a NULL element to the list.\n");
+        return;
+    }
 
+    // Initialize the next pointer of the element to NULL
+    element->next = NULL;
+
+    if (list->head == NULL) {
+        // If the list is empty, set both head and tail to the new element
+        list->head = element;
+        list->tail = element;
+    } else {
+        // If the list is not empty, append the element to the end
+        list->tail->next = element;
+        list->tail = element;
+    }
 }
 
 /*
@@ -88,7 +112,25 @@ void Enlist(linked_list_T *list, student_cell_T *element)
  */
 student_cell_T *Delist(linked_list_T *list)
 {
+  // Check if the list is empty
+    if (list->head == NULL) {
+        fprintf(stderr, "Error: The list is empty. Cannot remove a student.\n");
+        return NULL;
+    }
 
+    // Get the head cell to be removed
+    student_cell_T *element = list->head;
+
+    // Update the head pointer to point to the next cell in the list
+    list->head = element->next;
+
+    // If the list becomes empty after removal, update the tail pointer to NULL
+    if (list->head == NULL) {
+        list->tail = NULL;
+    }
+
+    // Return the removed element
+    return element;
 }
 
 /*
@@ -100,7 +142,8 @@ student_cell_T *Delist(linked_list_T *list)
  */
 int LinkedListIsEmpty(linked_list_T *list)
 {
-
+  // Check if the head pointer is NULL, indicating an empty list
+  return list->head == NULL;
 }
 
 int LinkedListIsFull(linked_list_T *list)
@@ -140,7 +183,25 @@ int LinkedListLength(linked_list_T  *list)
  */
 student_cell_T *GetLinkedListElement(linked_list_T *list, int index)
 {
+  if (index < 0) {
+        printf("Error: Index cannot be negative.\n");
+        return NULL;
+    }
 
+    student_cell_T *current = list->head;
+    int currentIndex = 0;
+
+    while (current != NULL) {
+        if (currentIndex == index) {
+            return current; // Return the student cell at the specified index
+        }
+        current = current->next;
+        currentIndex++;
+    }
+
+    // If the loop finishes without finding the element, it means the index is out of range
+    printf("Error: Index out of range.\n");
+    return NULL;
 }
 
 
@@ -151,23 +212,108 @@ student_cell_T *GetLinkedListElement(linked_list_T *list, int index)
 
 int LinkedListContainsID(linked_list_T *list, int id)
 {
-    // Implementation goes here
+  student_cell_T *current = list->head;
+
+    while (current != NULL) {
+        if (current->id == id) {
+            return 1; // ID exists in the linked list
+        }
+        current = current->next;
+    }
+
+    // ID not found in the linked list
+    return 0;
 }
 
 
 void PrintStudentList(linked_list_T *list)
 {
-    // Implementation goes here
+  student_cell_T *current = list->head;
+
+    if (current == NULL) {
+        printf("The student list is empty.\n");
+        return;
+    }
+
+    printf("List of Students:\n");
+    while (current != NULL) {
+        printf("ID: %d, GPA: %.2lf, Name: %s\n", current->id, current->gpa, current->name);
+        current = current->next;
+    }
 }
 
 
 void CalculateGPAs(linked_list_T *list, double *minGPA, double *avgGPA, double *maxGPA)
 {
-    // Implementation goes here
+  student_cell_T *current = list->head;
+
+    if (current == NULL) {
+        // If the list is empty, set all GPA values to 0.0
+        *minGPA = 0.0;
+        *avgGPA = 0.0;
+        *maxGPA = 0.0;
+        return;
+    }
+
+    // Initialize variables to calculate min, avg, and max GPAs
+    double totalGPA = 0.0;
+    int numStudents = 0;
+    *minGPA = current->gpa;
+    *maxGPA = current->gpa;
+
+    while (current != NULL) {
+        // Update total GPA for calculating average
+        totalGPA += current->gpa;
+
+        // Update min and max GPAs
+        if (current->gpa < *minGPA) {
+            *minGPA = current->gpa;
+        }
+        if (current->gpa > *maxGPA) {
+            *maxGPA = current->gpa;
+        }
+
+        // Move to the next student cell
+        current = current->next;
+        numStudents++;
+    }
+
+    // Calculate the average GPA
+    *avgGPA = totalGPA / numStudents;
 }
 
 
 student_cell_T *RemoveStudentWithHighestGPA(linked_list_T *list)
 {
-    // Implementation goes here
+  if (list->head == NULL) {
+        // The list is empty, cannot remove a student
+        return NULL;
+    }
+
+    // Initialize variables to keep track of the student with the highest GPA
+    student_cell_T *current = list->head;
+    student_cell_T *studentWithHighestGPA = current;
+    double highestGPA = current->gpa;
+
+    while (current->next != NULL) {
+        current = current->next;
+        if (current->gpa > highestGPA) {
+            highestGPA = current->gpa;
+            studentWithHighestGPA = current;
+        }
+    }
+
+    // Remove the student with the highest GPA from the list
+    if (studentWithHighestGPA == list->head) {
+        list->head = list->head->next;
+    } else {
+        current = list->head;
+        while (current->next != studentWithHighestGPA) {
+            current = current->next;
+        }
+        current->next = studentWithHighestGPA->next;
+    }
+
+    studentWithHighestGPA->next = NULL; // Disconnect the removed student cell
+    return studentWithHighestGPA;
 }

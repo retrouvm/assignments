@@ -132,5 +132,17 @@ student_cell_T *GetLinkedListElement(linked_list_T *list, int index);
 /* OTHER FUNCTIONS YOU WOULD NEED....
  * EXPORT THEM HERE, BUT IMPLMENT THEM in mylinkedlist.c 
  */
+// Check if a student with the given ID exists in the linked list
+int LinkedListContainsID(linked_list_T *list, int id);
+
+// Print the information of all students in the linked list
+void PrintStudentList(linked_list_T *list);
+
+// Calculate the minimum, average, and maximum GPAs in the linked list
+void CalculateGPAs(linked_list_T *list, double *minGPA, double *avgGPA, double *maxGPA);
+
+// Remove the student with the highest GPA from the linked list and return it
+student_cell_T *RemoveStudentWithHighestGPA(linked_list_T *list);
+
 
 #endif

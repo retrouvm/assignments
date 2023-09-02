@@ -28,7 +28,7 @@ int main(int argc, char *arvg[])
   // IF NEEDED, YOU CAN ALSO IMLEMENT YOUR OWN FUNCTIONS HERE
 
   int choice;
-  LinkedList *list = NewLinkedList();
+  linked_list_T *list = NewLinkedList();
 
   do {
       printf("\nMenu:\n");
