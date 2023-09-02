@@ -116,7 +116,14 @@ int LinkedListIsFull(linked_list_T *list)
  */
 int LinkedListLength(linked_list_T  *list)
 {
-
+  student_cell_T *current = list->head;
+    while (current != NULL) {
+        student_cell_T *next = current->next; // Store the next cell before freeing the current one
+        free(current->name); // Free the name (char*) field
+        free(current); // Free the student cell
+        current = next; // Move to the next cell
+    }
+    free(list); // Finally, free the linked list structure itself
 }
 
 /*
@@ -142,4 +149,25 @@ student_cell_T *GetLinkedListElement(linked_list_T *list, int index)
  * EXPORT THEM HERE, BUT IMPLMENT THEM in mylinkedlist.c 
  */
 
-  
+int LinkedListContainsID(linked_list_T *list, int id)
+{
+    // Implementation goes here
+}
+
+
+void PrintStudentList(linked_list_T *list)
+{
+    // Implementation goes here
+}
+
+
+void CalculateGPAs(linked_list_T *list, double *minGPA, double *avgGPA, double *maxGPA)
+{
+    // Implementation goes here
+}
+
+
+student_cell_T *RemoveStudentWithHighestGPA(linked_list_T *list)
+{
+    // Implementation goes here
+}

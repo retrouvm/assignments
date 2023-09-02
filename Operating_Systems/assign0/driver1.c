@@ -20,8 +20,6 @@
  */
 char *ReadLine(void);
 
-
-
  
 int main(int argc, char *arvg[])
 {
@@ -29,17 +27,124 @@ int main(int argc, char *arvg[])
   // But before that, implement your ReadLine() function, and test it as shown below. 
   // IF NEEDED, YOU CAN ALSO IMLEMENT YOUR OWN FUNCTIONS HERE
 
-  char *name;
+  int choice;
+  LinkedList *list = NewLinkedList();
 
-  printf("Enter a name to test your ReadLine function  : ");
-  name = ReadLine();
-  if (name != NULL){
-    printf("User entered : %s \n", name);  
-    free(name);
-  }
-  else {
-    printf("Memory allocation error\n");
-    }
+  do {
+      printf("\nMenu:\n");
+      printf("1 - Create a new student\n");
+      printf("2 - Remove the first student\n");
+      printf("3 - Print the number of students\n");
+      printf("4 - Print student info by index\n");
+      printf("5 - Print the list of all students\n");
+      printf("6 - Print min, avg, max GPAs\n");
+      printf("7 - Remove student with highest GPA\n");
+      printf("8 - Exit\n");
+      printf("Enter your choice: ");
+      scanf("%d", &choice);
+
+      switch (choice) {
+          case 1:
+              // Implement adding a new student
+              {
+                    int id;
+                    double gpa;
+                    char *name;
+
+                    printf("Enter student ID: ");
+                    scanf("%d", &id);
+
+                    // Check if the student ID already exists
+                    if (LinkedListContainsID(list, id)) {
+                        printf("Student with ID %d already exists.\n", id);
+                        break;
+                    }
+
+                    printf("Enter student GPA: ");
+                    scanf("%lf", &gpa);
+
+                    printf("Enter student name: ");
+                    getchar(); // Consume the newline character from the previous input
+                    name = ReadLine();
+
+                    // Create a new student cell and add it to the list
+                    student_cell_T *element = NewStudentCell(id, gpa, name);
+                    Enlist(list, element);
+                    printf("Student added successfully.\n");
+                }
+              break;
+          case 2:
+              // Implement removing the first student
+              {
+                    student_cell_T *element = Delist(list);
+                    if (element != NULL) {
+                        printf("Removed student - ID: %d, GPA: %.2lf, Name: %s\n", element->id, element->gpa, element->name);
+                        free(element->name);
+                        free(element);
+                    } else {
+                        printf("The list is empty. Cannot remove a student.\n");
+                    }
+                }
+              break;
+          case 3:
+              // Implement printing the number of students
+              {
+                    int numStudents = LinkedListLength(list);
+                    printf("Number of students in the list: %d\n", numStudents);
+                }
+              break;
+          case 4:
+              // Implement printing student info by index
+              {
+                    int index;
+                    printf("Enter the index of the student: ");
+                    scanf("%d", &index);
+
+                    student_cell_T *element = GetLinkedListElement(list, index);
+                    if (element != NULL) {
+                        printf("Student - ID: %d, GPA: %.2lf, Name: %s\n", element->id, element->gpa, element->name);
+                    } else {
+                        printf("Invalid index. No student found.\n");
+                    }
+                }
+              break;
+          case 5:
+              // Implement printing the list of all students
+              PrintStudentList(list);
+              break;
+          case 6:
+              // Implement printing min, avg, max GPAs
+              {
+                    double minGPA, avgGPA, maxGPA;
+                    CalculateGPAs(list, &minGPA, &avgGPA, &maxGPA);
+                    printf("Min GPA: %.2lf\n", minGPA);
+                    printf("Average GPA: %.2lf\n", avgGPA);
+                    printf("Max GPA: %.2lf\n", maxGPA);
+                }
+              break;
+          case 7:
+              // Implement removing student with highest GPA
+              {
+                    student_cell_T *element = RemoveStudentWithHighestGPA(list);
+                    if (element != NULL) {
+                        printf("Removed student with highest GPA - ID: %d, GPA: %.2lf, Name: %s\n",
+                            element->id, element->gpa, element->name);
+                        free(element->name);
+                        free(element);
+                    } else {
+                        printf("The list is empty. Cannot remove a student.\n");
+                    }
+                }
+              break;
+          case 8:
+              // Implement cleanup and exit
+              FreeLinkedList(list); // Free memory
+                printf("Exiting program.\n");
+                break;
+            default:
+                printf("Invalid choice. Try again.\n");
+        }
+  } while (choice != 8);
 
   return 0;
 }
@@ -125,4 +230,3 @@ char *ReadLine()
     return finalBuffer;
 }
 
-   
