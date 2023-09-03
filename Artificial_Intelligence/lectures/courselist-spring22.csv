@@ -1,0 +1,355 @@
+Status,Subject,Course,Section,CRN,Title,Cred,Meeting Days,Times,Meeting Type,Campus,Location,Instructor,Date,Weeks,Seats,Enrolled,Available,Wait List,Final Exam,Fees
+OPEN,CS,1063,1,20464,Intro to Comp Programming I,3,MW,4:00-5:15pm,"Online only, at set time",Internet, ,"Rutherford, Linda B.",01/18-05/11,17,75,70,5,N/A,Tue  May 10  07:00 am - 08:50 am  ,$111 
+OPEN,CS,1083,1,31537,Prog I for Computer Scientists,3,TR,4:00-5:15pm,Traditional in-person,Main Camp,NPB 1.202,"Gomez Morales, Mauricio Alejandro",01/18-05/11,17,60,32,28,N/A,Tue  May 10  03:00 pm - 04:50 pm  ,$111 
+OPEN,CS,1083,2,31538,Prog I for Computer Scientists,3,TR,10:00-11:15am,Traditional in-person,Main Camp,NPB 1.202,"Gomez Morales, Mauricio Alejandro",01/18-05/11,17,60,53,7,N/A,Tue  May 10  11:00 am - 12:50 pm  ,$111 
+CLOSED,CS,1083,3,31810,Prog I for Computer Scientists,3,MWF,10:00-10:50am,"Online only, at set time",Internet, ,"Rathore, Heena",01/18-05/11,17,65,65,0,N/A,Mon  May 09  11:00 am - 12:50 pm  ,$111 
+OPEN,CS,1083,4,35683,Prog I for Computer Scientists,3,TR,1:00-2:15pm,Traditional in-person,Main Camp,NPB 1.238,"Long, Byron L.",01/18-05/11,17,60,40,20,N/A,Tue  May 10  01:00 pm - 02:50 pm  ,$111 
+OPEN,CS,1083,5,38828,Prog I for Computer Scientists,3,TR,11:30-12:45pm,Traditional in-person,Main Camp,NPB 1.202,"Long, Byron L.",01/18-05/11,17,60,49,11,N/A,Thu  May 05  11:00 am - 12:50 pm  ,$111 
+OPEN,CS,1173,1,26789,Data Analysis and Visual(Q),3,T,10:00-11:15am,Mix of in person and online,Main Camp,NPB 1.238,"Roberson, Dawnlee J.",01/18-05/11,17,60,44,16,N/A,To be determined by instructor ,$198 
+OPEN,CS,1173,2,26790,Data Analysis and Visual(Q),3,R,10:00-11:15am,Mix of in person and online,Main Camp,NPB 1.238,"Roberson, Dawnlee J.",01/18-05/11,17,60,37,23,N/A,To be determined by instructor ,$198 
+OPEN,CS,1173,3,23564,Data Analysis and Visual(Q),3,,,"Online only, no set time",Internet, ,"Roberson, Dawnlee J.",01/18-05/11,17,70,68,2,N/A,To be determined by instructor ,$198 
+OPEN,CS,1173,4,24095,Data Analysis and Visual(Q),3,,,"Online only, no set time",Internet, ,"Rutherford, Linda B.",01/18-05/11,17,70,69,1,N/A,To be determined by instructor ,$198 
+OPEN,CS,1173,5,36830,Data Analysis and Visual(Q),3,TR,1:00-2:15pm,Traditional in-person,Main Camp,NPB 1.202,"Rutherford, Linda B.",01/18-05/11,17,60,55,5,N/A,Tue  May 10  01:00 pm - 02:50 pm  ,$198 
+CANCELED,CS,1173,6,38862,Data Analysis and Visual (HON),3,TBA,TBA,,Main Camp, ,Staff,01/18-05/11,17,30,0,30,N/A,To be determined by instructor ,$198 
+OPEN,CS,1173,7,39768,Data Analysis and Visual,3,TR,4:00-5:15pm,"Online only, at set time",Internet, ,"Rutherford, Linda B.",01/18-05/11,17,60,57,3,N/A,Tue  May 10  03:00 pm - 04:50 pm  ,$198 
+OPEN,CS,1714,0A1,36483,Computer Programming II,4,TR,2:30-3:45pm,Traditional in-person,Main Camp,NPB 1.202,"Jointer, Stanley",01/18-05/11,17,66,51,15,N/A,Thu  May 05  01:00 pm - 02:50 pm  ,$148 
+OPEN,CS,1714,0AA,36484,Computer Programming II,  ,T,4:00-4:50pm,Traditional in-person,Main Camp,NPB 1.226,"Jointer, Stanley",01/18-05/11,17,33,32,1,N/A,To be determined by instructor ,
+OPEN,CS,1714,0AB,36485,Computer Programming II,  ,R,4:00-4:50pm,Traditional in-person,Main Camp,NPB 1.226,"Jointer, Stanley",01/18-05/11,17,33,19,14,N/A,To be determined by instructor ,
+OPEN,CS,1714,0B2,36622,Computer Programming II,4,MWF,1:00-1:50pm,"Online only, at set time",Internet, ,"Desai, Kevin",01/18-05/11,17,70,68,2,N/A,Mon  May 09  01:00 pm - 02:50 pm  ,$148 
+OPEN,CS,1714,0BA,36623,Computer Programming II,  ,W,2:00-2:50pm,"Online only, at set time",Internet, ,"Desai, Kevin",01/18-05/11,17,35,34,1,N/A,To be determined by instructor ,
+OPEN,CS,1714,0BB,36626,Computer Programming II,  ,F,2:00-2:50pm,"Online only, at set time",Internet, ,"Desai, Kevin",01/18-05/11,17,35,34,1,N/A,To be determined by instructor ,
+OPEN,CS,1714,0C3,36634,Computer Programming II,4,MWF,12:00-12:50pm,"Online only, at set time",Internet, ,"Desai, Kevin",01/18-05/11,17,70,69,1,N/A,Fri  May 06  11:00 am - 12:50 pm  ,$148 
+OPEN,CS,1714,0CA,36635,Computer Programming II,  ,W,1:00-1:50pm,"Online only, at set time",Internet, ,"Desai, Kevin",01/18-05/11,17,35,34,1,N/A,To be determined by instructor ,
+CLOSED,CS,1714,0CB,36638,Computer Programming II,  ,F,1:00-1:50pm,"Online only, at set time",Internet, ,"Desai, Kevin",01/18-05/11,17,35,35,0,N/A,To be determined by instructor ,
+OPEN,CS,1714,0D4,36643,Computer Programming II,4,TR,11:30-12:45pm,Traditional in-person,Main Camp,NPB 1.238,"Jointer, Stanley",01/18-05/11,17,60,54,6,N/A,Thu  May 05  11:00 am - 12:50 pm  ,$148 
+OPEN,CS,1714,0DA,36646,Computer Programming II,  ,T,1:00-1:50pm,Traditional in-person,Main Camp,NPB 1.226,"Jointer, Stanley",01/18-05/11,17,30,27,3,N/A,To be determined by instructor ,
+OPEN,CS,1714,0DB,36650,Computer Programming II,  ,R,1:00-1:50pm,Traditional in-person,Main Camp,NPB 1.226,"Jointer, Stanley",01/18-05/11,17,30,27,3,N/A,To be determined by instructor ,
+OPEN,CS,2073,1,22825,Comp Prog W/Egr Application,3,MW,6:00-7:15pm,Traditional in-person,Main Camp,NPB 1.238,"Banerjee, Jishnu",01/18-05/11,17,60,26,34,N/A,Mon  May 09  05:00 pm - 06:50 pm  ,$111 
+OPEN,CS,2124,0A1,36697,Data Structures,4,MW,4:00-5:15pm,"Online only, at set time",Internet, ,"Sherette, Jonathan L.",01/18-05/11,17,60,58,2,N/A,Mon  May 09  03:00 pm - 04:50 pm  ,$148 
+OPEN,CS,2124,0AA,36700,Data Structures,  ,M,5:30-6:20pm,"Online only, at set time",Internet, ,"Sherette, Jonathan L.",01/18-05/11,17,30,28,2,N/A,To be determined by instructor ,
+CLOSED,CS,2124,0AB,36707,Data Structures,  ,W,5:30-6:20pm,"Online only, at set time",Internet, ,"Sherette, Jonathan L.",01/18-05/11,17,30,30,0,N/A,To be determined by instructor ,
+OPEN,CS,2124,0B2,36715,Data Structures,4,MW,6:00-7:15pm,"Online only, at set time",Internet, ,"Sherette, Jonathan L.",01/18-05/11,17,60,46,14,N/A,Mon  May 09  05:00 pm - 06:50 pm  ,$148 
+OPEN,CS,2124,0BA,36726,Data Structures,  ,M,7:30-8:20pm,"Online only, at set time",Internet, ,"Sherette, Jonathan L.",01/18-05/11,17,30,29,1,N/A,To be determined by instructor ,
+OPEN,CS,2124,0BB,36731,Data Structures,  ,W,7:30-8:20pm,"Online only, at set time",Internet, ,"Sherette, Jonathan L.",01/18-05/11,17,30,17,13,N/A,To be determined by instructor ,
+OPEN,CS,2124,0C3,36732,Data Structures,4,TR,8:30-9:45am,Traditional in-person,Main Camp,MH 3.04.12,"Heaps, John S.",01/18-05/11,17,60,23,37,N/A,Thu  May 05  09:00 am - 10:50 am  ,$148 
+OPEN,CS,2124,0CA,36734,Data Structures,  ,T,10:00-10:50am,Traditional in-person,Main Camp,NPB 1.226,"Heaps, John S.",01/18-05/11,17,30,18,12,N/A,To be determined by instructor ,
+OPEN,CS,2124,0CB,36736,Data Structures,  ,R,10:00-10:50am,Traditional in-person,Main Camp,NPB 1.226,"Heaps, John S.",01/18-05/11,17,30,5,25,N/A,To be determined by instructor ,
+OPEN,CS,2124,0D4,36737,Data Structures,4,TR,10:00-11:15am,Traditional in-person,Main Camp,MH 3.04.22,"Heaps, John S.",01/18-05/11,17,60,59,1,N/A,Tue  May 10  11:00 am - 12:50 pm  ,$148 
+OPEN,CS,2124,0DA,36738,Data Structures,  ,T,11:30-12:20pm,Traditional in-person,Main Camp,NPB 1.226,"Heaps, John S.",01/18-05/11,17,30,29,1,N/A,To be determined by instructor ,
+CLOSED,CS,2124,0DB,36739,Data Structures,  ,R,11:30-12:20pm,Traditional in-person,Main Camp,NPB 1.226,"Heaps, John S.",01/18-05/11,17,30,30,0,N/A,To be determined by instructor ,
+OPEN,CS,2233,1,23113,Discrete Math Structures,3,MWF,2:00-2:50pm,Traditional in-person,Main Camp,BB 3.02.28,"Pritom, Mir Mehedi A.",01/18-05/11,17,60,44,16,N/A,Wed  May 11  01:00 pm - 02:50 pm  ,$111 
+OPEN,CS,2233,2,28695,Discrete Math Structures,3,MWF,12:00-12:50pm,Traditional in-person,Main Camp,MH 3.04.12,"Yang, Zhongxiu",01/18-05/11,17,60,58,2,N/A,Fri  May 06  11:00 am - 12:50 pm  ,$111 
+OPEN,CS,2233,3,32004,Discrete Math Structures,3,MWF,9:00-9:50am,"Online only, at set time",Internet, ,"Arafat, Imtiaz Muhammad",01/18-05/11,17,66,64,2,N/A,Fri  May 06  09:00 am - 10:50 am  ,$111 
+OPEN,CS,2233,4,35690,Discrete Math Structures,3,MWF,1:00-1:50pm,"Online only, at set time",Internet, ,"Arafat, Imtiaz Muhammad",01/18-05/11,17,66,63,3,N/A,Mon  May 09  01:00 pm - 02:50 pm  ,$111 
+OPEN,CS,2233,5,38838,Discrete Math Structures,3,MWF,10:00-10:50am,Traditional in-person,Main Camp,BB 3.03.22,"Sherette, Jonathan L.",01/18-05/11,17,64,61,3,N/A,Mon  May 09  11:00 am - 12:50 pm  ,$111 
+CLOSED,CS,3113,1,34870,Principles of Cyber Security,3,,,"Online only, no set time",Internet, ,"Anderson, Benjamin R.",01/18-05/11,17,110,110,0,N/A,To be determined by instructor ,$270 
+OPEN,CS,3333,1,23116,Math Found of CS,3,MWF,1:00-1:50pm,Traditional in-person,Main Camp,MH 3.04.12,"Lu, Qi",01/18-05/11,17,60,37,23,N/A,Mon  May 09  01:00 pm - 02:50 pm  ,$195 
+OPEN,CS,3333,2,30388,Math Found of CS,3,MWF,11:00-11:50am,"Online only, at set time",Internet, ,"Lu, Qi",01/18-05/11,17,56,53,3,N/A,Wed  May 11  11:00 am - 12:50 pm  ,$195 
+OPEN,CS,3333,3,35691,Math Found of CS,3,MWF,9:00-9:50am,"Online only, at set time",Internet, ,"Lu, Qi",01/18-05/11,17,56,36,20,N/A,Fri  May 06  09:00 am - 10:50 am  ,$195 
+OPEN,CS,3333,4,38841,Math Found of CS,3,MWF,2:00-2:50pm,Traditional in-person,Main Camp,MH 3.04.12,"Long, Byron L.",01/18-05/11,17,56,20,36,N/A,Wed  May 11  01:00 pm - 02:50 pm  ,$195 
+OPEN,CS,3343,1,20342,Analysis Of Algorithms,3,MWF,12:00-12:50pm,Traditional in-person,Main Camp,MH 3.04.22,"Arafat, Imtiaz Muhammad",01/18-05/11,17,60,30,30,N/A,Fri  May 06  11:00 am - 12:50 pm  ,$195 
+OPEN,CS,3343,2,30774,Analysis Of Algorithms,3,TR,11:30-12:45pm,Traditional in-person,Main Camp,MH 3.04.22,"Dutta, Anandi K.",01/18-05/11,17,60,48,12,N/A,Thu  May 05  11:00 am - 12:50 pm  ,$195 
+CLOSED,CS,3343,3,35692,Analysis Of Algorithms,3,TR,10:00-11:15am,"Online only, at set time",Internet, ,"Gibson, Matthew R.",01/18-05/11,17,80,80,0,N/A,Tue  May 10  11:00 am - 12:50 pm  ,$195 
+CANCELED,CS,3343,4,38842,Analysis Of Algorithms,3,TBA,TBA,,Main Camp, ,Staff,01/18-05/11,17,60,0,60,N/A,To be determined by instructor ,$195 
+CLOSED,CS,3424,0A1,36741,Systems Programming,4,MWF,10:00-10:50am,"Online only, at set time",Internet, ,"Silvestro, Sam A.",01/18-05/11,17,60,60,0,N/A,Mon  May 09  11:00 am - 12:50 pm  ,$260 
+CLOSED,CS,3424,0AA,36743,Systems Programming,  ,W,11:00-11:50am,"Online only, at set time",Internet, ,"Silvestro, Sam A.",01/18-05/11,17,30,30,0,N/A,To be determined by instructor ,
+CLOSED,CS,3424,0AB,36745,Systems Programming,  ,F,11:00-11:50am,"Online only, at set time",Internet, ,"Silvestro, Sam A.",01/18-05/11,17,30,30,0,N/A,To be determined by instructor ,
+OPEN,CS,3424,0B2,36748,Systems Programming,4,MWF,2:00-2:50pm,Traditional in-person,Main Camp,MH 2.02.04,"Silvestro, Sam A.",01/18-05/11,17,60,44,16,N/A,Wed  May 11  01:00 pm - 02:50 pm  ,$260 
+OPEN,CS,3424,0BA,36750,Systems Programming,  ,W,3:00-3:50pm,Traditional in-person,Main Camp,NPB 1.226,"Silvestro, Sam A.",01/18-05/11,17,30,29,1,N/A,To be determined by instructor ,
+OPEN,CS,3424,0BB,36754,Systems Programming,  ,F,3:00-3:50pm,Traditional in-person,Main Camp,NPB 1.226,"Silvestro, Sam A.",01/18-05/11,17,30,15,15,N/A,To be determined by instructor ,
+OPEN,CS,3424,0C3,36769,Systems Programming,4,MWF,9:00-9:50am,"Online only, at set time",Internet, ,"Silvestro, Sam A.",01/18-05/11,17,60,58,2,N/A,Fri  May 06  09:00 am - 10:50 am  ,$260 
+CLOSED,CS,3424,0CA,36771,Systems Programming,  ,W,10:00-10:50am,"Online only, at set time",Internet, ,"Silvestro, Sam A.",01/18-05/11,17,30,30,0,N/A,To be determined by instructor ,
+OPEN,CS,3424,0CB,36772,Systems Programming,  ,F,10:00-10:50am,"Online only, at set time",Internet, ,"Silvestro, Sam A.",01/18-05/11,17,30,28,2,N/A,To be determined by instructor ,
+OPEN,CS,3424,0D4,36773,Systems Programming,4,TR,4:00-5:15pm,Traditional in-person,Main Camp,MH 3.04.08,"O'Hara, Steven A.",01/18-05/11,17,60,47,13,N/A,Tue  May 10  03:00 pm - 04:50 pm  ,$260 
+OPEN,CS,3424,0DA,36775,Systems Programming,  ,T,5:30-6:20pm,Traditional in-person,Main Camp,NPB 1.226,"O'Hara, Steven A.",01/18-05/11,17,30,29,1,N/A,To be determined by instructor ,
+OPEN,CS,3424,0DB,36776,Systems Programming,  ,R,5:30-6:20pm,Traditional in-person,Main Camp,NPB 1.226,"O'Hara, Steven A.",01/18-05/11,17,30,18,12,N/A,To be determined by instructor ,
+OPEN,CS,3443,1,27294,Application Programming,3,MWF,2:00-2:50pm,Traditional in-person,Main Camp,NPB 1.238,"Rathore, Heena",01/18-05/11,17,60,33,27,N/A,Wed  May 11  01:00 pm - 02:50 pm  ,$195 
+OPEN,CS,3443,2,27295,Application Programming,3,MWF,11:00-11:50am,"Online only, at set time",Internet, ,"Rathore, Heena",01/18-05/11,17,60,56,4,N/A,Wed  May 11  11:00 am - 12:50 pm  ,$195 
+OPEN,CS,3443,3,34278,Application Programming,3,MWF,12:00-12:50pm,"Online only, at set time",Internet, ,"Rathore, Heena",01/18-05/11,17,60,58,2,N/A,Fri  May 06  11:00 am - 12:50 pm  ,$195 
+OPEN,CS,3443,4,38844,Application Programming,3,MW,4:00-5:15pm,Traditional in-person,Main Camp,NPB 1.238,"Long, Byron L.",01/18-05/11,17,60,38,22,N/A,Mon  May 09  03:00 pm - 04:50 pm  ,$195 
+OPEN,CS,3723,1,20514,Programming Languages,3,MWF,11:00-11:50am,Traditional in-person,Main Camp,NPB 1.202,"Arafat, Imtiaz Muhammad",01/18-05/11,17,60,32,28,N/A,Wed  May 11  11:00 am - 12:50 pm  ,$195 
+CLOSED,CS,3723,2,32521,Programming Languages,3,TR,2:30-3:45pm,Traditional in-person,Main Camp,NPB 1.238,"O'Hara, Steven A.",01/18-05/11,17,60,60,0,N/A,Thu  May 05  01:00 pm - 02:50 pm  ,$195 
+OPEN,CS,3723,3,36489,Programming Languages,3,TR,8:30-9:45am,"Online only, at set time",Internet, ,"O'Hara, Steven A.",01/18-05/11,17,76,75,1,N/A,Thu  May 05  09:00 am - 10:50 am  ,$195 
+OPEN,CS,3733,1,20100,Operating Systems,3,TR,10:00-11:15am,"Online only, at set time",Internet, ,"Korkmaz, Turgay  .",01/18-05/11,17,70,53,17,N/A,Tue  May 10  11:00 am - 12:50 pm  ,$195 
+CLOSED,CS,3733,2,31336,Operating Systems,3,TR,11:30-12:45pm,Traditional in-person,Main Camp,MH 3.04.10,"Silvestro, Sam A.",01/18-05/11,17,60,60,0,N/A,Thu  May 05  11:00 am - 12:50 pm  ,$195 
+OPEN,CS,3733,3,38846,Operating Systems,3,TR,8:30-9:45am,Traditional in-person,Main Camp,MH 3.04.22,"Silvestro, Sam A.",01/18-05/11,17,60,29,31,N/A,Thu  May 05  09:00 am - 10:50 am  ,$195 
+OPEN,CS,3743,1,32522,Database Systems,3,TR,2:30-3:45pm,Traditional in-person,Main Camp,SEB 3.146,"Gomez Morales, Mauricio Alejandro",01/18-05/11,17,60,35,25,N/A,Thu  May 05  01:00 pm - 02:50 pm  ,$195 
+OPEN,CS,3743,2,36078,Database Systems,3,TR,1:00-2:15pm,Traditional in-person,Main Camp,SEB 3.146,"Gomez Morales, Mauricio Alejandro",01/18-05/11,17,60,58,2,N/A,Tue  May 10  01:00 pm - 02:50 pm  ,$195 
+OPEN,CS,3743,3,38847,Database Systems,3,MW,4:00-5:15pm,"Online only, at set time",Internet, ,"Gomez Morales, Mauricio Alejandro",01/18-05/11,17,76,74,2,N/A,Mon  May 09  03:00 pm - 04:50 pm  ,$195 
+OPEN,CS,3753,1,34506,Data Science,3,TR,11:30-12:45pm,Traditional in-person,Main Camp,BB 3.04.08,"Ruan, Jianhua",01/18-05/11,17,71,70,1,N/A,Thu  May 05  11:00 am - 12:50 pm  ,$195 
+CLOSED,CS,3773,1,20101,Software Engineering,3,MWF,1:00-1:50pm,Traditional in-person,Main Camp,MH 2.01.36,"Valadez, Juan M.",01/18-05/11,17,60,60,0,N/A,Mon  May 09  01:00 pm - 02:50 pm  ,$195 
+OPEN,CS,3773,2,32026,Software Engineering,3,TR,1:00-2:15pm,"Online only, at set time",Internet, ,"Valadez, Juan M.",01/18-05/11,17,86,85,1,N/A,Tue  May 10  01:00 pm - 02:50 pm  ,$195 
+OPEN,CS,3793,1,34280,Artificial Intelligence,3,TR,2:30-3:45pm,Traditional in-person,Main Camp,BB 2.01.18,"Desai, Kevin",01/18-05/11,17,69,66,3,N/A,Thu  May 05  01:00 pm - 02:50 pm  ,$195 
+OPEN,CS,3844,0A1,36777,Computer Organization,4,TR,8:30-9:45am,"Online only, at set time",Internet, ,"Dutta, Anandi K.",01/18-05/11,17,70,68,2,N/A,Thu  May 05  09:00 am - 10:50 am  ,$260 
+OPEN,CS,3844,0AA,36779,Computer Organization,  ,T,10:00-10:50am,"Online only, at set time",Internet, ,"Dutta, Anandi K.",01/18-05/11,17,35,34,1,N/A,To be determined by instructor ,
+OPEN,CS,3844,0AB,36780,Computer Organization,  ,R,10:00-10:50am,"Online only, at set time",Internet, ,"Dutta, Anandi K.",01/18-05/11,17,35,34,1,N/A,To be determined by instructor ,
+OPEN,CS,3844,0B2,36783,Computer Organization,4,TR,6:00-7:15pm,Traditional in-person,Main Camp,MH 3.04.10,"Dutta, Anandi K.",01/18-05/11,17,60,29,31,N/A,Tue  May 10  05:00 pm - 06:50 pm  ,$260 
+OPEN,CS,3844,0BA,36784,Computer Organization,  ,T,7:30-8:20pm,Traditional in-person,Main Camp,NPB 1.226,"Dutta, Anandi K.",01/18-05/11,17,30,21,9,N/A,To be determined by instructor ,
+OPEN,CS,3844,0BB,36785,Computer Organization,  ,R,7:30-8:20pm,Traditional in-person,Main Camp,NPB 1.226,"Dutta, Anandi K.",01/18-05/11,17,30,8,22,N/A,To be determined by instructor ,
+CLOSED,CS,3844,0C3,36787,Computer Organization,4,TR,1:00-2:15pm,Traditional in-person,Main Camp,BB 3.04.06,"Dutta, Anandi K.",01/18-05/11,17,70,70,0,N/A,Tue  May 10  01:00 pm - 02:50 pm  ,$260 
+CLOSED,CS,3844,0CA,36789,Computer Organization,  ,T,2:30-3:20pm,Traditional in-person,Main Camp,NPB 1.226,"Dutta, Anandi K.",01/18-05/11,17,35,35,0,N/A,To be determined by instructor ,
+CLOSED,CS,3844,0CB,36791,Computer Organization,  ,R,2:30-3:20pm,Traditional in-person,Main Camp,NPB 1.226,"Dutta, Anandi K.",01/18-05/11,17,35,35,0,N/A,To be determined by instructor ,
+OPEN,CS,3853,1,23121,Computer Architecture,3,TR,6:00-7:15pm,"Online only, at set time",Internet, ,"Wang, Wei",01/18-05/11,17,70,68,2,N/A,Tue  May 10  05:00 pm - 06:50 pm  ,$195 
+OPEN,CS,3853,2,32017,Computer Architecture,3,MW,6:00-7:15pm,Traditional in-person,Main Camp,NPB 1.226,"Ortiz, John A.",01/18-05/11,17,60,19,41,N/A,Mon  May 09  05:00 pm - 06:50 pm  ,$195 
+OPEN,CS,3853,3,38848,Computer Architecture,3,TR,4:00-5:15pm,Traditional in-person,Main Camp,MH 3.04.10,"Wang, Wei",01/18-05/11,17,60,59,1,N/A,Tue  May 10  03:00 pm - 04:50 pm  ,$195 
+OPEN,CS,3873,1,28704,Computer Networks,3,MWF,11:00-11:50am,"Online only, at set time",Internet, ,"Murphy, Richard L.",01/18-05/11,17,76,66,10,N/A,Wed  May 11  11:00 am - 12:50 pm  ,$195 
+OPEN,CS,4243,1,37590,Large-Scale Data Management,3,TR,6:00-7:15pm,Traditional in-person,Main Camp,FLN 2.03.12,"Arora, Ritu",01/18-05/11,17,39,29,10,N/A,Tue  May 10  05:00 pm - 06:50 pm  ,$195 
+OPEN,CS,4263,1,36495,Deep Learning,3,TR,1:00-2:15pm,Traditional in-person,Main Camp,MH 2.01.32,"Fernandez, Amanda S.",01/18-05/11,17,40,21,19,N/A,Tue  May 10  01:00 pm - 02:50 pm  ,$195 
+CANCELED,CS,4313,1,36498,Automata Comput & Formal Lang,3,,,,Internet, ,Staff,01/18-05/11,17,0,0,0,N/A,To be determined by instructor ,$195 
+OPEN,CS,4353,1,22826,Unix and Network Security,3,MWF,1:00-1:50pm,Traditional in-person,Main Camp,BB 3.03.20,"Harrison, Keith B.",01/18-05/11,17,40,19,21,N/A,Mon  May 09  01:00 pm - 02:50 pm  ,$195 
+OPEN,CS,4363,1,32528,Cryptography,3,,,"Online only, no set time",Internet, ,"Sandhu, Ravi",01/18-05/11,17,70,62,5,N/A,To be determined by instructor ,$195 
+OPEN,CS,4383,1,36506,Computer Graphics,3,MW,7:30-8:45pm,Traditional in-person,Main Camp,FLN 2.03.12,"Jointer, Stanley",01/18-05/11,17,50,27,23,N/A,Wed  May 11  07:00 pm - 08:50 pm  ,$195 
+CLOSED,CS,4393,1,31346,User Interfaces,3,TR,2:30-3:45pm,"Online only, at set time",Internet, ,"Quarles, John P.",01/18-05/11,17,62,62,0,N/A,Thu  May 05  01:00 pm - 02:50 pm  ,$195 
+CLOSED,CS,4413,1,38849,Web Technologies,3,MWF,10:00-10:50am,Traditional in-person,Main Camp,NPB 1.202,"Valadez, Juan M.",01/18-05/11,17,75,75,0,N/A,Mon  May 09  11:00 am - 12:50 pm  ,$195 
+OPEN,CS,4423,1,35701,Game Development,3,MW,6:00-7:15pm,"Online only, at set time",Internet, ,"Jointer, Stanley",01/18-05/11,17,99,81,18,N/A,Mon  May 09  05:00 pm - 06:50 pm  ,$195 
+CANCELED,CS,4483,1,36508,Cyber Security Found&Practice,3,,,,Internet, ,Staff,01/18-05/11,17,40,0,40,N/A,To be determined by instructor ,$195 
+CLOSED,CS,4593,1,36006,AT: Fundamentals of Systems,3,TR,6:00-7:15pm,Traditional in-person,Main Camp, ,"Zhu, Dakai",01/18-05/11,17,20,0,17,N/A,Tue  May 10  05:00 pm - 06:50 pm  ,$195 
+CLOSED,CS,4593,2,36007,AT: Fundamentals of Softwares,3,TR,7:30-8:45pm,Traditional in-person,Main Camp, ,"Sherette, Jonathan L.",01/18-05/11,17,20,0,19,N/A,Thu  May 05  07:00 pm - 08:50 pm  ,$195 
+OPEN,CS,4613,1,36510,Senior Design I,3,TR,2:30-3:45pm,Traditional in-person,Main Camp,BB 2.01.10,"Heaps, John S.",01/18-05/11,17,30,6,24,N/A,Thu  May 05  01:00 pm - 02:50 pm  ,$195 
+OPEN,CS,4623,1,36511,Senior Design II,3,TR,2:30-3:45pm,Traditional in-person,Main Camp,BB 2.01.10,"Heaps, John S.",01/18-05/11,17,30,1,29,N/A,Thu  May 05  01:00 pm - 02:50 pm  ,$195 
+CLOSED,CS,4643,1,35705,Cellular and Mobile Tech,3,TR,6:00-7:15pm,"Online only, at set time",Internet, ,"Ku, Bernard S.",01/18-05/11,17,70,70,0,N/A,Tue  May 10  05:00 pm - 06:50 pm  ,$195 
+OPEN,CS,4653,1,36522,Softwr and Malwr Reverse Engin,3,MW,7:30-8:45pm,Traditional in-person,Main Camp,NPB 1.226,"Ortiz, John A.",01/18-05/11,17,50,32,18,N/A,Wed  May 11  07:00 pm - 08:50 pm  ,$195 
+OPEN,CS,4673,1,32531,Cyber Operations,3,,,"Online only, no set time",Internet, ,"Rutherford, James R.",01/18-05/11,17,76,74,2,N/A,To be determined by instructor ,$225 
+CLOSED,CS,4683,1,32532,Secure Software Dev & Analysis,3,MWF,12:00-12:50pm,Traditional in-person,Main Camp,BB 3.04.06,"Slavin, Rocky L.",01/18-05/11,17,60,65,-5,N/A,Fri  May 06  11:00 am - 12:50 pm  ,$195 
+OPEN,CS,4683,2,39789,Secure Software Dev & Analysis,3,MWF,12:00-12:50pm,Traditional in-person,Main Camp,BB 3.04.08,"Heaps, John S.",01/18-05/11,17,71,17,54,N/A,Fri  May 06  11:00 am - 12:50 pm  ,$195 
+CANCELED,CS,4713,1,36523,Compiler Construction,3,,,,Internet, ,Staff,01/18-05/11,17,60,0,60,N/A,To be determined by instructor ,$195 
+OPEN,CS,4783,1,33759,Advanced Software Engineering,3,MWF,2:00-2:50pm,Traditional in-person,Main Camp,BB 3.01.12,"Valadez, Juan M.",01/18-05/11,17,66,59,7,N/A,Wed  May 11  01:00 pm - 02:50 pm  ,$195 
+CANCELED,CS,4833,1,38906,Embedded Systems,3,TBA,TBA,,Main Camp, ,Staff,01/18-05/11,17,30,0,30,N/A,To be determined by instructor ,$195 
+OPEN,CS,4843,1,35706,Cloud Computing,3,TR,7:30-8:45pm,Traditional in-person,Main Camp,MH 3.04.08,"Najafirad, Peyman",01/18-05/11,17,60,43,17,N/A,Thu  May 05  07:00 pm - 08:50 pm  ,$195 
+OPEN,CS,4853,1,35707,Advanced Systems Programming,3,MW,7:30-8:45pm,Traditional in-person,Main Camp,FLN 2.03.08,"Silvestro, Sam A.",01/18-05/11,17,40,18,22,N/A,Wed  May 11  07:00 pm - 08:50 pm  ,$195 
+OPEN,CS,4911,1,33886,Independent Study,1,,,"Online only, no set time",Internet, ,Staff,01/18-05/11,17,60,0,60,N/A,To be determined by instructor ,$65 
+OPEN,CS,4911,2,34507,Independent Study,1,,,"Online only, no set time",Internet, ,Staff,01/18-05/11,17,60,0,60,N/A,To be determined by instructor ,$65 
+OPEN,CS,4911,3,34508,Independent Study,1,,,"Online only, no set time",Internet, ,Staff,01/18-05/11,17,60,0,60,N/A,To be determined by instructor ,$65 
+OPEN,CS,4913,1,21017,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,"Desai, Kevin",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$195 
+OPEN,CS,4913,2,36449,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,"Najafirad, Peyman",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$195 
+OPEN,CS,4913,3,21057,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,"Wang, Xiaoyin",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$195 
+OPEN,CS,4913,4,36450,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,"Fernandez, Amanda S.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$195 
+OPEN,CS,4913,5,36451,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$195 
+OPEN,CS,4913,6,36452,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$195 
+OPEN,CS,4913,7,36453,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$195 
+OPEN,CS,4913,8,36454,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$195 
+OPEN,CS,4913,9,36455,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$195 
+OPEN,CS,4913,10,36456,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$195 
+CLOSED,CS,4933,1,21139,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,"Valadez, Juan M.",01/18-05/11,17,5,5,0,N/A,To be determined by instructor ,$195 
+OPEN,CS,4933,2,21715,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$195 
+OPEN,CS,4933,3,21722,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$195 
+OPEN,CS,4933,4,21726,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$195 
+OPEN,CS,4933,5,22095,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$195 
+OPEN,CS,4933,6,23129,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$195 
+OPEN,CS,4933,7,36245,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$195 
+OPEN,CS,4933,8,36966,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$195 
+OPEN,CS,4933,9,36967,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$195 
+OPEN,CS,4933,10,36968,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$195 
+OPEN,CS,4933,11,36969,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$195 
+OPEN,CS,4933,12,36970,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$195 
+CANCELED,CS,4973,1,36524,AT-DS: Computer Vision,3,,,,Internet, ,Staff,01/18-05/11,17,40,0,40,N/A,To be determined by instructor ,$195 
+CANCELED,CS,4973,2,37577,AT: Brain Inspired AI,3,,,,Internet, ,Staff,01/18-05/11,17,15,0,15,N/A,To be determined by instructor ,$195 
+OPEN,CS,4993,1,21087,Honors Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$195 
+OPEN,CS,4993,2,21571,Honors Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$195 
+OPEN,CS,4993,3,22097,Honors Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$195 
+OPEN,CS,4993,4,36975,Honors Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$195 
+OPEN,CS,4993,5,36976,Honors Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$195 
+OPEN,CS,5013,1,38850,Fundamentals of Software,3,TR,6:00-7:15pm,Traditional in-person,Main Camp,NPB 1.110,"Sherette, Jonathan L.",01/18-05/11,17,30,8,17,N/A,Tue  May 10  05:00 pm - 06:50 pm  ,$285 
+OPEN,CS,5023,1,38851,Fundamentals of Systems,3,TR,7:30-8:45pm,Traditional in-person,Main Camp,NPB 1.110,"Zhu, Dakai",01/18-05/11,17,20,6,14,N/A,Thu  May 05  07:00 pm - 08:50 pm  ,$285 
+OPEN,CS,5103,1,31363,Software Engineering,3,TR,4:00-5:15pm,Traditional in-person,Main Camp,BB 3.03.20,"Wang, Xiaoyin",01/18-05/11,17,40,23,17,N/A,Tue  May 10  03:00 pm - 04:50 pm  ,$285 
+CLOSED,CS,5113,1,36525,Computer Graphics,3,MW,7:30-8:45pm,Traditional in-person,Main Camp, ,"Jointer, Stanley",01/18-05/11,17,15,0,15,N/A,Wed  May 11  07:00 pm - 08:50 pm  ,$285 
+CLOSED,CS,5153,1,34286,User Interfaces and Usability,3,TR,2:30-3:45pm,"Online only, at set time",Internet, ,"Quarles, John P.",01/18-05/11,17,20,20,0,N/A,Thu  May 05  01:00 pm - 02:50 pm  ,$285 
+OPEN,CS,5163,1,34509,Data Science,3,MW,4:00-5:15pm,Traditional in-person,Main Camp,BB 2.05.04,"Lu, Qi",01/18-05/11,17,25,7,18,N/A,Mon  May 09  03:00 pm - 04:50 pm  ,$285 
+OPEN,CS,5233,1,35698,Artificial Intelligence,3,TR,2:30-3:45pm,Traditional in-person,Main Camp,BB 2.01.18,"Desai, Kevin",01/18-05/11,17,25,23,2,N/A,Thu  May 05  01:00 pm - 02:50 pm  ,$285 
+OPEN,CS,5323,1,31396,Principles of Cybersecurity,3,MW,4:00-5:15pm,"Online only, at set time",Internet, ,"White, Gregory B.",01/18-05/11,17,40,19,21,N/A,Mon  May 09  03:00 pm - 04:50 pm  ,$240 
+CANCELED,CS,5353,1,36526,Language-Automata-Computation,3,,,,Internet, ,Staff,01/18-05/11,17,20,0,20,N/A,To be determined by instructor ,$240 
+OPEN,CS,5363,1,28711,Programming Lang & Compilers,3,TR,7:30-8:45pm,Traditional in-person,Main Camp,MH 3.04.10,"Wang, Xiaoyin",01/18-05/11,17,58,53,5,N/A,Thu  May 05  07:00 pm - 08:50 pm  ,$240 
+CANCELED,CS,5463,1,35709,Topics: F. of Systems (Bridge),3,,,,Internet, ,Staff,01/18-05/11,17,40,0,40,N/A,To be determined by instructor ,$285 
+CANCELED,CS,5463,2,35710,Topics:F. of Software (Bridge),3,,,,Internet, ,Staff,01/18-05/11,17,40,0,40,N/A,To be determined by instructor ,$285 
+CLOSED,CS,5463,3,36527,T: Mal.Rev.Eng,3,MW,7:30-8:45pm,Traditional in-person,Main Camp,NPB 1.226,"Ortiz, John A.",01/18-05/11,17,10,0,10,N/A,Wed  May 11  07:00 pm - 08:50 pm  ,$285 
+CANCELED,CS,5483,1,36214,T-DS: Computer Vision,3,,,,Internet, ,Staff,01/18-05/11,17,20,0,20,N/A,To be determined by instructor ,$285 
+OPEN,CS,5483,2,36529,T-DS: Deep Learning,3,TR,1:00-2:15pm,Traditional in-person,Main Camp,MH 2.01.32,"Fernandez, Amanda S.",01/18-05/11,17,20,19,1,N/A,Tue  May 10  01:00 pm - 02:50 pm  ,$285 
+CANCELED,CS,5483,3,37578, T: Brain Inspired AI,3,,,,Internet, ,Staff,01/18-05/11,17,15,0,15,N/A,To be determined by instructor ,$285 
+OPEN,CS,5493,1,37592,Large-Scale Data Management,3,TR,6:00-7:15pm,Traditional in-person,Main Camp,FLN 2.03.12,"Arora, Ritu",01/18-05/11,17,30,17,13,N/A,Tue  May 10  05:00 pm - 06:50 pm  ,$285 
+OPEN,CS,5523,1,20251,Operating Systems,3,MW,6:00-7:15pm,Traditional in-person,Main Camp,MH 3.03.16,"Xie, Mimi",01/18-05/11,17,40,26,14,N/A,Mon  May 09  05:00 pm - 06:50 pm  ,$285 
+OPEN,CS,5573,1,38852,Cloud Computing,3,,,"Online only, no set time",Internet, ,"Lama, Palden",01/18-05/11,17,30,26,4,N/A,To be determined by instructor ,$285 
+CLOSED,CS,5583,1,36530,Kernel Concepts & Programming,3,MW,7:30-8:45pm,Traditional in-person,Main Camp, ,"Silvestro, Sam A.",01/18-05/11,17,20,0,20,N/A,Wed  May 11  07:00 pm - 08:50 pm  ,$285 
+OPEN,CS,5633,1,28712,Analysis of Algorithms,3,TR,6:00-7:15pm,Traditional in-person,Main Camp,BB 3.03.20,"Gibson, Matthew R.",01/18-05/11,17,40,22,18,N/A,Tue  May 10  05:00 pm - 06:50 pm  ,$285 
+OPEN,CS,5933,1,30887,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$285 
+OPEN,CS,5933,2,36982,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$285 
+OPEN,CS,5933,3,36983,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$285 
+OPEN,CS,5933,4,36984,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$285 
+OPEN,CS,5933,5,36986,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$285 
+OPEN,CS,5933,6,36989,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$285 
+OPEN,CS,5933,7,36991,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$285 
+OPEN,CS,5933,8,36992,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$285 
+OPEN,CS,5933,9,36994,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$285 
+OPEN,CS,5933,10,36995,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$285 
+OPEN,CS,5933,11,37148,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$285 
+OPEN,CS,5933,12,37149,Internship in Computer Science,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$285 
+OPEN,CS,5973,1,20589,Directed Research,3,TBA,TBA,To be arranged,Main Camp, ,"Desai, Kevin",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,5973,2,22099,Directed Research,3,TBA,TBA,To be arranged,Main Camp, ,"Lu, Qi",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,5973,3,36998,Directed Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,5973,4,36999,Directed Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,5973,5,37000,Directed Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6373,1,36531,Applied Cryptography,3,,,"Online only, no set time",Internet, ,"Sandhu, Ravi",01/18-05/11,17,20,13,5,N/A,To be determined by instructor ,$285 
+CANCELED,CS,6393,2,34287,SecTop: Cyb Sec Found & Pract,3,,,,Internet, ,Staff,01/18-05/11,17,20,0,20,N/A,To be determined by instructor ,$285 
+OPEN,CS,6463,1,38854,AT: Trust in AI,3,TR,7:30-8:45pm,"Online only, at set time",Internet, ,"Jha, Sumit K.",01/18-05/11,17,20,8,12,N/A,Thu  May 05  07:00 pm - 08:50 pm  ,$285 
+OPEN,CS,6543,1,38855,Networks,3,MW,6:00-7:15pm,Traditional in-person,Main Camp,NPB 1.202,"Boppana, Rajendra V.",01/18-05/11,17,20,6,14,N/A,Mon  May 09  05:00 pm - 06:50 pm  ,$285 
+OPEN,CS,6663,1,39475,Adv Parallel Processing & Syst,3,MW,4:00-5:15pm,"Online only, at set time",Internet, ,"Xie, Mimi",01/18-05/11,17,20,6,14,N/A,Mon  May 09  03:00 pm - 04:50 pm  ,
+OPEN,CS,6953,1,21018,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,"O'Hara, Steven A.",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,2,37005,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,"Slavin, Rocky L.",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,3,21025,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,"Wang, Wei",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,4,37007,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,"Zhu, Dakai",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,5,37008,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,"Najafirad, Peyman",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,6,37009,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,7,37010,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,8,21112,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,9,37011,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,10,21362,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,11,21604,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,12,37012,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,13,37013,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,14,37014,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6953,15,37015,Independent Study,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6961,1,21089,Comprehensive Examination,1,TBA,TBA,To be arranged,Main Camp, ,"Xie, Mimi",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$95 
+OPEN,CS,6961,2,21623,Comprehensive Examination,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,6961,3,37029,Comprehensive Examination,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,6961,4,37030,Comprehensive Examination,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,6961,5,37031,Comprehensive Examination,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,6961,6,37032,Comprehensive Examination,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,6961,7,37033,Comprehensive Examination,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,6961,8,37034,Comprehensive Examination,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,6961,9,37035,Comprehensive Examination,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,6961,10,37036,Comprehensive Examination,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,6981,1,23812,Master's Thesis,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$95 
+OPEN,CS,6981,2,37041,Master's Thesis,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$95 
+OPEN,CS,6981,3,37043,Master's Thesis,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$95 
+OPEN,CS,6981,4,37044,Master's Thesis,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$95 
+OPEN,CS,6981,5,37045,Master's Thesis,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,5,0,5,N/A,To be determined by instructor ,$95 
+OPEN,CS,6983,1,21034,Master's Thesis,3,TBA,TBA,To be arranged,Main Camp, ,"Najafirad, Peyman",01/18-05/11,17,10,3,7,N/A,To be determined by instructor ,$285 
+OPEN,CS,6983,2,21188,Master's Thesis,3,TBA,TBA,To be arranged,Main Camp, ,"Lama, Palden",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,6983,3,21753,Master's Thesis,3,TBA,TBA,To be arranged,Main Camp, ,"Xie, Mimi",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,6983,4,23080,Master's Thesis,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6983,5,37058,Master's Thesis,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,6983,6,37059,Master's Thesis,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7123,1,27307,Research Methods,3,MW,4:00-5:15pm,Traditional in-person,Main Camp,BB 3.04.04,"Boppana, Rajendra V.",01/18-05/11,17,20,9,11,N/A,Mon  May 09  03:00 pm - 04:50 pm  ,$240 
+OPEN,CS,7211,1,23467,Doctoral Research,1,TBA,TBA,To be arranged,Main Camp, ,"Niu, Jianwei",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$95 
+OPEN,CS,7211,2,23469,Doctoral Research,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7211,3,23587,Doctoral Research,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7211,4,23597,Doctoral Research,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7211,5,37083,Doctoral Research,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7211,6,37085,Doctoral Research,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7211,7,37086,Doctoral Research,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7211,8,37088,Doctoral Research,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7211,9,37090,Doctoral Research,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7211,10,37093,Doctoral Research,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7213,1,20959,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Boppana, Rajendra V.",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,2,20984,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Fernandez, Amanda S.",01/18-05/11,17,10,3,7,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,3,37126,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Gibson, Matthew R.",01/18-05/11,17,10,3,7,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,4,21031,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Jadliwala, Murtuza",01/18-05/11,17,10,3,7,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,5,37128,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Jha, Sumit K.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,6,37129,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Korkmaz, Turgay  .",01/18-05/11,17,10,4,6,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,7,37131,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Lama, Palden",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,8,21055,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Niu, Jianwei",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,9,21643,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Prasad, Sushil",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,10,37138,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Quarles, John P.",01/18-05/11,17,5,2,3,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,11,21645,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Najafirad, Peyman",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,12,21646,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Ruan, Jianhua",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,13,21647,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Sandhu, Ravi",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,14,37141,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Slavin, Rocky L.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,15,21649,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Wang, Wei",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,16,21650,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Wang, Xiaoyin",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,17,21755,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"White, Gregory B.",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,18,21756,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Xie, Mimi",01/18-05/11,17,10,3,7,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,19,22069,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Zhu, Dakai",01/18-05/11,17,10,3,7,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,20,37142,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Desai, Kevin",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,21,37143,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,22,22072,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,23,37144,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,"Najafirad, Peyman",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,24,22173,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,25,37145,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7213,26,37146,Doctoral Research,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7216,1,21189,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Boppana, Rajendra V.",01/18-05/11,17,10,3,7,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,2,21190,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Fernandez, Amanda S.",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,3,21328,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Gibson, Matthew R.",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,4,21652,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Jadliwala, Murtuza",01/18-05/11,17,10,3,7,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,5,21657,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Jha, Sumit K.",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,6,21658,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Korkmaz, Turgay  .",01/18-05/11,17,10,3,7,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,7,21659,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Lama, Palden",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,8,21661,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Niu, Jianwei",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,9,21662,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Prasad, Sushil",01/18-05/11,17,10,4,6,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,10,21757,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Quarles, John P.",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,11,22174,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Najafirad, Peyman",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,12,22177,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Ruan, Jianhua",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,13,37243,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Sandhu, Ravi",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,14,37244,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Slavin, Rocky L.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,15,37245,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Wang, Wei",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,16,37246,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Wang, Xiaoyin",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,17,37247,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"White, Gregory B.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,18,37248,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Xie, Mimi",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,19,37249,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Zhu, Dakai",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,20,37250,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Desai, Kevin",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,21,37251,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,22,37252,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,23,37253,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Najafirad, Peyman",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,24,37254,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,25,37255,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,"Lama, Palden",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$570 
+OPEN,CS,7216,26,37256,Doctoral Research,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7311,1,22740,Doctoral Dissertation,1,TBA,TBA,To be arranged,Main Camp, ,"Sandhu, Ravi",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$95 
+OPEN,CS,7311,2,22754,Doctoral Dissertation,1,TBA,TBA,To be arranged,Main Camp, ,"Sandhu, Ravi",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$95 
+OPEN,CS,7311,3,22757,Doctoral Dissertation,1,TBA,TBA,To be arranged,Main Camp, ,"Wang, Xiaoyin",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$95 
+OPEN,CS,7311,4,22758,Doctoral Dissertation,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$95 
+OPEN,CS,7311,5,37257,Doctoral Dissertation,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7311,6,37260,Doctoral Dissertation,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7311,7,37261,Doctoral Dissertation,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7311,8,37262,Doctoral Dissertation,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7311,9,37263,Doctoral Dissertation,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7311,10,37265,Doctoral Dissertation,1,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$95 
+OPEN,CS,7313,1,20974,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Boppana, Rajendra V.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,2,20981,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Fernandez, Amanda S.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,3,21669,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Gibson, Matthew R.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,4,21670,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Jadliwala, Murtuza",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,5,21671,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Jha, Sumit K.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,6,21672,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,7,21674,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Korkmaz, Turgay  .",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,8,22280,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Niu, Jianwei",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,9,36166,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Prasad, Sushil",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,10,37287,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Quarles, John P.",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,11,37288,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Najafirad, Peyman",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,12,37289,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Ruan, Jianhua",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,13,37290,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Sandhu, Ravi",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,14,37291,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Slavin, Rocky L.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,15,37292,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Wang, Wei",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,16,37293,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,17,37294,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Wang, Xiaoyin",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,18,37295,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Xie, Mimi",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,19,37296,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,"Zhu, Dakai",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,20,37297,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,21,37298,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,22,37299,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,23,37300,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,24,37301,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,25,37302,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7313,26,37304,Doctoral Dissertation,3,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$285 
+OPEN,CS,7316,1,21191,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Boppana, Rajendra V.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,2,21678,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Fernandez, Amanda S.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,3,21684,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Gibson, Matthew R.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,4,21685,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Jadliwala, Murtuza",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,5,21686,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Jha, Sumit K.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,6,21688,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,7,22182,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Korkmaz, Turgay  .",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,8,37305,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Niu, Jianwei",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,9,37306,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Prasad, Sushil",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,10,37307,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Quarles, John P.",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,11,37308,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Najafirad, Peyman",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,12,37309,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Ruan, Jianhua",01/18-05/11,17,10,1,9,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,13,37311,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Sandhu, Ravi",01/18-05/11,17,10,2,8,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,14,37312,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Slavin, Rocky L.",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,15,37313,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Wang, Wei",01/18-05/11,17,10,3,7,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,16,37314,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,17,37315,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Wang, Xiaoyin",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,18,37316,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Xie, Mimi",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,19,37317,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,"Zhu, Dakai",01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,20,37318,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,21,37319,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,22,37320,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,23,37321,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,24,37322,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,25,37323,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
+OPEN,CS,7316,26,37324,Doctoral Dissertation,6,TBA,TBA,To be arranged,Main Camp, ,Staff,01/18-05/11,17,10,0,10,N/A,To be determined by instructor ,$570 
