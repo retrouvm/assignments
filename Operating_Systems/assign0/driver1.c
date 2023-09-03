@@ -32,7 +32,7 @@ int main(int argc, char *arvg[])
   
   if (list == NULL) {
     fprintf(stderr, "Error: Failed to initialize the linked list.\n");
-    // Handle the error, possibly by exiting the program or taking appropriate action.
+    // Handle the error
 }
 
   do {
@@ -106,11 +106,11 @@ int main(int argc, char *arvg[])
                     scanf("%d", &index);
                     if (list->head == NULL) {
                         fprintf(stderr, "Error: The linked list is empty.\n");
-                        // Handle the error, possibly by notifying the user or taking appropriate action.
+                        // Handle the error
                     }
                     if (index < 0 || index >= LinkedListLength(list)) {
                         fprintf(stderr, "Error: Invalid index. It is out of bounds.\n");
-                        // Handle the error, possibly by notifying the user or taking appropriate action.
+                        // Handle the error
                     }
                     student_cell_T *element = GetLinkedListElement(list, index);
                     if (element != NULL) {
