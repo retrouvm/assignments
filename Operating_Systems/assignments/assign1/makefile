@@ -4,11 +4,11 @@ CFLAGS = -Wall -g
 all: wordcount multiple_wordcount 
 
 clean:
-	rm -f *.o wordcount
+	rm -f *.o wordcount multiple_wordcount
 
-wordcount: wordcount.c
-	$(CC) $(CFLAGS) wordcount.c -o wordcount
+wordcount: wordcount.c wordcount.h
+	$(CC) $(CFLAGS) $^ -o $@
 
-multiple_wordcount: wordcount.c
-	$(CC) $(CFLAGS) multiple_wordcount.c -o multiple_wordcount
+multiple_wordcount: multiple_wordcount.c wordcount.h
+	$(CC) $(CFLAGS) $^ -o $@
 

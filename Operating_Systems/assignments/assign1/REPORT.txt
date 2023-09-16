@@ -1,0 +1,4 @@
+1. I did not collaborate with anyone
+2. I believe what i did was correct
+3.
+4. challenges was trying to write out the makefile, and forgetting to create a header file

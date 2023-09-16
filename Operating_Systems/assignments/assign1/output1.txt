@@ -1,0 +1,7 @@
+retrom@retro:/mnt/c/Users/rmani/OneDrive/Documents/GitHub/assignments/Operating_Systems/assignments/assign1$ ./wordcount input_file_1.txt
+wordcount with process pid_87 counted words in input_file_1.txt: number of words is 6
+retrom@retro:/mnt/c/Users/rmani/OneDrive/Documents/GitHub/assignments/Operating_Systems/assignments/assign1$ ./multiple_wordcount input_file_1.txt input_f
+ile_2.txt
+Parent process pid created 2 child processes to count words in 2 files       
+wordcount with process pid_91 counted words in input_file_2.txt: number of words is 14
+wordcount with process pid_90 counted words in input_file_1.txt: number of words is 6
