@@ -1,0 +1,2 @@
+I was not able to run my java program since I did not have JDK downloaded and forgot my sudo password. I'm still tryng to figure out how to reset that password
+I used chatgpt to debug my java files
