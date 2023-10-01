@@ -90,7 +90,7 @@ int main(int argc, char* argv[]) {
         A[i] = 1 + (rand() / (double)RAND_MAX) * 999;
     }
 
-    // TODO: Complete rest of the main function following the high-level pseudocode provided.
+    //Complete rest of the main function following the high-level pseudocode provided.
     struct timespec ts_begin, ts_end;
     double elapsed;  
 
