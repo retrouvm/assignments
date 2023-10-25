@@ -1,0 +1,6 @@
+Which 2 versions are unsafe when multi-threaded?
+sum2.c: The sum2 function uses a static variable sumsq. In a multi-threaded environment, if multiple threads call this function simultaneously, they could interfere with each other since they would be sharing the same sumsq variable. This could result in incorrect answers.
+sum5.c: The sum5 function allocates memory for a sum struct using malloc. If multiple threads call this function simultaneously, they might allocate and modify the same memory, leading to data corruption or incorrect results.
+
+Which version is closest to call-by-name?
+The version closest to call-by-name is sum3.c. In this version, the sum3 function returns a pointer to a sum_t struct, allowing the caller to directly access the results. This is similar to call-by-name semantics where you can access the results by name (e.g., m->x, m->y, m->z) without explicitly passing variables as arguments to the function.
