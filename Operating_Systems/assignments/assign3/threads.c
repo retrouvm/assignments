@@ -12,9 +12,11 @@
 typedef struct PCB {
     int pid;
     int priority;
+    int processID;
     int *CPUBurst;
     int *IOBurst;
-    int numCPUBurst;
+    int numCPUBursts;
+    int numIOBursts;
     int cpuIndex;
     int ioIndex;
     struct PCB *next;
@@ -135,85 +137,124 @@ PCB* findHighestPriority(DLL *list) {
 
     return highestPriority;
 }
+PCB* createPCB(const char* line) {
+    PCB* newPCB = (PCB*)malloc(sizeof(PCB));
+    if (newPCB == NULL) {
+        perror("Failed to allocate memory for PCB");
+        exit(EXIT_FAILURE);
+    }
 
-void freePCB(PCB *pcb) {
-    if(pcb) {
-        if(pcb->CPUBurst) free(pcb->CPUBurst);
-        if(pcb->IOBurst) free(pcb->IOBurst);
+    // Start by checking if the line represents a 'proc'
+    if (strncmp(line, "proc", 4) != 0) {
+        // This isn't a process definition line.
+        free(newPCB);
+        return NULL;
+    }
+
+    // Extract the process ID and the number of bursts
+    int offset = 0;
+    int numRead = sscanf(line, "proc %d %d%n", &(newPCB->processID), &(newPCB->numCPUBursts), &offset);
+    if (numRead != 2) {
+        perror("Failed to parse processID or numCPUBursts");
+        free(newPCB);
+        exit(EXIT_FAILURE);
+    }
+
+    // Given the number of bursts, we know that half (or half + 1 for odd numbers) will be CPU bursts
+    int numCPUBursts = (newPCB->numCPUBursts + 1) / 2;
+    int numIOBursts = newPCB->numCPUBursts / 2;
+
+    newPCB->CPUBurst = (int*)malloc(numCPUBursts * sizeof(int));
+    newPCB->IOBurst = (int*)malloc(numIOBursts * sizeof(int));
+    if (newPCB->CPUBurst == NULL || newPCB->IOBurst == NULL) {
+        perror("Failed to allocate memory for bursts");
+        free(newPCB->CPUBurst);
+        free(newPCB->IOBurst);
+        free(newPCB);
+        exit(EXIT_FAILURE);
+    }
+
+    // Read bursts alternating between CPU and IO
+    const char* ptr = line + offset;
+    for (int i = 0; i < newPCB->numCPUBursts; i++) {
+        if (i % 2 == 0) {  // CPU Burst
+            sscanf(ptr, "%d%n", &(newPCB->CPUBurst[i / 2]), &offset);
+        } else {  // IO Burst
+            sscanf(ptr, "%d%n", &(newPCB->IOBurst[i / 2]), &offset);
+        }
+        ptr += offset;
+    }
+
+    return newPCB;
+}
+
+
+// To free the memory when done:
+void destroyPCB(PCB* pcb) {
+    if(pcb != NULL) {
+        if(pcb->CPUBurst != NULL) {
+            free(pcb->CPUBurst);
+        }
+        if(pcb->IOBurst != NULL) {
+            free(pcb->IOBurst);
+        }
         free(pcb);
     }
 }
 
 //threads
-void* FileRead_thread(void *arg) {
-    char *filename = (char *) arg;
-    FILE *file = fopen(filename, "r");
+void* FileRead_thread(void* arg) {
+    const char* filename = (const char*) arg;
+    FILE* file = fopen(filename, "r");
     if (!file) {
         perror("Error opening file");
         return NULL;
     }
+    
     char line[256];
-    int currPID = 0;
     while (fgets(line, sizeof(line), file)) {
-        // Create and initialize a new PCB
-        PCB *newPCB = (PCB *)malloc(sizeof(PCB));
-        if (newPCB == NULL) {
-            perror("Memory allocation for newPCB failed");
-            exit(EXIT_FAILURE);
+        // Trim newline character
+        size_t len = strlen(line);
+        if (len > 0 && line[len-1] == '\n') {
+            line[len-1] = '\0';
         }
-        newPCB->cpuIndex = 0;
-        newPCB->ioIndex = 0;
-        newPCB->next = NULL;
-        newPCB->prev = NULL;
 
-        // Tokenize and parse the line
-        char *token;
-        int fieldCount = 0, burstCount = 0;
+        // Stop check
+        if (strncmp(line, "stop", 4) == 0) {
+            break;
+        }
         
-        token = strtok(line, ", ");
-        while (token) {
-            switch (fieldCount) {
-                case 0: // PID
-                    newPCB->pid = atoi(token);
-                    break;
-                case 1: // Priority
-                    newPCB->priority = atoi(token);
-                    break;
-                default:
-                    burstCount++;
-                    break;
-            }
-            fieldCount++;
-            token = strtok(NULL, ", ");
+        // Sleep check
+        if (strncmp(line, "sleep", 5) == 0) {
+            // Assuming the format is "sleep [duration]", you can extract the duration and sleep for that amount
+            int sleepDuration = 0;
+            sscanf(line, "sleep %d", &sleepDuration);
+            sleep(sleepDuration); // This will cause the thread to sleep
+            continue;
         }
 
-        newPCB->numCPUBurst = burstCount / 2;
-
-        // Allocating memory after parsing numCPUBurst
-        newPCB->CPUBurst = malloc(newPCB->numCPUBurst * sizeof(int));
-        newPCB->IOBurst = malloc((newPCB->numCPUBurst - 1) * sizeof(int));
-
-        if (!newPCB->CPUBurst || !newPCB->IOBurst) {
-            perror("Error allocating memory");
-            freePCB(newPCB);  // Use the freePCB function here
-            exit(EXIT_FAILURE);
+        PCB *newPCB = createPCB(line); 
+        if (!newPCB) {
+            continue;
         }
 
-
-
-        
-        // Lock the mutex before accessing the Ready_Q
         pthread_mutex_lock(&mutex_ready_q);
-        // Insert new PCB into Ready_Q
         insert(&Ready_Q, newPCB);
-        // Unlock the mutex
         pthread_mutex_unlock(&mutex_ready_q);
+        
         sem_post(&sem_cpu);
     }
+    
+    // If you want to perform an action upon EOF or if other threads need to know when reading is done:
+    // pthread_mutex_lock(&some_mutex);
     file_read_done = 1;
+    // pthread_mutex_unlock(&some_mutex);
+
     fclose(file);
     return NULL;
 }
+
+
 
 void* CPUscheduler_thread(void *arg) {
     ProgramArgs *args = (ProgramArgs *) arg;
@@ -237,7 +278,11 @@ void* CPUscheduler_thread(void *arg) {
                 pcb->CPUBurst[pcb->cpuIndex] -= args->quantum;
                 insert(&Ready_Q, pcb);
                 cpu_busy = 0;
+                pthread_mutex_unlock(&mutex_ready_q); // Make sure to unlock here before continue
                 continue;
+            } else if (pcb->CPUBurst[pcb->cpuIndex] == args->quantum) {
+                usleep(args->quantum * 1000);
+                pcb->cpuIndex++;
             }
         }
 
@@ -248,13 +293,16 @@ void* CPUscheduler_thread(void *arg) {
         }
         // Unlock the mutex after you're done with the Ready_Q
         pthread_mutex_unlock(&mutex_ready_q);
-        usleep(pcb->CPUBurst[pcb->cpuIndex] * 1000); // Assuming CPUBurst is in ms
-        pcb->cpuIndex++;
-        if (pcb->cpuIndex >= pcb->numCPUBurst) {
+
+        if (strcmp(args->algorithm, "RR") != 0 || (strcmp(args->algorithm, "RR") == 0 && pcb->CPUBurst[pcb->cpuIndex-1] < args->quantum)) {
+            usleep(pcb->CPUBurst[pcb->cpuIndex] * 1000); // Assuming CPUBurst is in ms
+            pcb->cpuIndex++;
+        }
+
+        if (pcb->cpuIndex >= pcb->numCPUBursts) {
             free(pcb->CPUBurst);
             free(pcb->IOBurst);
             free(pcb);
-
             cpu_busy = 0;
         } else {
             insert(&IO_Q, pcb);
@@ -268,15 +316,24 @@ void* CPUscheduler_thread(void *arg) {
 }
 
 
+
 void* IO_system_thread(void *arg) {
-    while (!cpu_sch_done || IO_Q.head) {
+    while (1) {  // change this to always loop
         // Wait for an IO task, this will block if IO_Q is empty
         sem_wait(&sem_io);
         io_busy = 1;
 
         pthread_mutex_lock(&mutex_io_q);
+
+        // If IO_Q is empty and CPU scheduler is done, break out of loop
+        if (IO_Q.head == NULL && cpu_sch_done) {
+            pthread_mutex_unlock(&mutex_io_q);
+            io_busy = 0;
+            break;  // This will exit the loop and the thread function
+        }
         
-        if (IO_Q.head == NULL) {  // Just in case, a spurious wake-up
+        // Just in case of a spurious wake-up or CPU scheduler is done but IO_Q is not empty
+        if (IO_Q.head == NULL) {
             pthread_mutex_unlock(&mutex_io_q);
             io_busy = 0;
             continue;
@@ -299,6 +356,7 @@ void* IO_system_thread(void *arg) {
 
     return NULL;
 }
+
 
 
 //parse cl arg
