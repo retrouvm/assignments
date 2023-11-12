@@ -1,0 +1,17 @@
+I worked on part3.c as well. part3.c is different from the first two parts because it can adjust to different memory sizes. It takes extra information when it starts, which tells it how big to make the memory spaces. This makes part3.c more flexible. It's correct because it carefully follows the steps to manage memory, like keeping track of which parts of memory are in use and which aren't. It also prevents errors by checking everything works right and cleans up after itself by freeing up memory space when it's done.
+1. I didn't directly collaborate with anyone but, i did ask generic questions regaring file handling in the class groupchat, i also used chatgpt for when i came across issues, debugging and handling errors.
+2. I'd like to think that i did things correctly since i got the desired output
+
+Part 1:
+ceabc02825a5b908e474b053074ab53c  part1-output
+
+Part 2:
+Part 2 page faults: 3210
+c95b27848ae8d4354d87678d075001f7 part2-output
+
+Part 3 :
+Page faults: 3324
+d34ec1b7d6aaa8d6eb093b9b95c8e094 part3-output
+
+Page faults: 2132
+eae769fd560d5e7940b9e0e5f593e7f8 part3-output
