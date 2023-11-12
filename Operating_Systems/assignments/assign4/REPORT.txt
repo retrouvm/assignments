@@ -2,16 +2,20 @@ I worked on part3.c as well. part3.c is different from the first two parts becau
 1. I didn't directly collaborate with anyone but, i did ask generic questions regaring file handling in the class groupchat, i also used chatgpt for when i came across issues, debugging and handling errors.
 2. I'd like to think that i did things correctly since i got the desired output
 
-Part 1:
+md5sum part1-output
 ceabc02825a5b908e474b053074ab53c  part1-output
 
-Part 2:
-Part 2 page faults: 3210
-c95b27848ae8d4354d87678d075001f7 part2-output
+./part2 part2sequence part2-output
+Page faults: 3210
+md5sum part2-output
+c95b27848ae8d4354d87678d075001f7  part2-output
 
-Part 3 :
+./part3 256 4096 1024 part2sequence part3-output
 Page faults: 3324
-d34ec1b7d6aaa8d6eb093b9b95c8e094 part3-output
+md5sum part3-output
+d34ec1b7d6aaa8d6eb093b9b95c8e094  part3-output
 
+./part3 128 4096 2048 part2sequence part3-output
 Page faults: 2132
-eae769fd560d5e7940b9e0e5f593e7f8 part3-output
+md5sum part3-output
+eae769fd560d5e7940b9e0e5f593e7f8  part3-output

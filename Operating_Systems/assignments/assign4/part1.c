@@ -55,7 +55,7 @@ int main(int argc, char *argv[]) {
         PA = translate(LA);
         fwrite(&PA, sizeof(unsigned long), 1, outfile);
         // For testing purposes, uncomment the line below to see the LA and PA on the screen
-        printf("LA = %lx   PA = %lx \n", LA, PA);
+        //printf("LA = %lx   PA = %lx \n", LA, PA);
     }
 
     // Close the input and output files
