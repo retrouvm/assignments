@@ -1,0 +1,83 @@
+;;; removeNILTop function
+;;; This function takes a list and removes all NIL elements from the top level of the list.
+(defun removeNILTop (L)
+  (cond ((null L) nil)  ; If the list is empty, return nil
+        ((null (car L)) (removeNILTop (cdr L)))  ; If the first element is NIL, skip it
+        (t (cons (car L) (removeNILTop (cdr L)))))  ; Otherwise, keep the element and continue
+)
+
+;;; Testing removeNILTop
+(print (removeNILTop '(NIL X NIL NIL Y NIL Z)))
+(print (removeNILTop '(X NIL Y NIL Z NIL)))
+(print (removeNILTop '(NIL (X NIL Y) (NIL NIL))))
+
+
+;;; removeNILMost function
+;;; This function takes a list and removes all NIL elements from any level of the list.
+(defun removeNILMost (L)
+  (cond ((null L) nil)  ; If the list is empty, return nil
+        ((atom (car L))  ; If the first element is an atom (not a list)
+          (if (null (car L)) (removeNILMost (cdr L))  ; If it's NIL, skip it
+              (cons (car L) (removeNILMost (cdr L)))))  ; Otherwise, keep it
+        (t (cons (removeNILMost (car L)) (removeNILMost (cdr L)))))  ; If it's a list, process it recursively
+)
+
+;;; Testing removeNILMost
+(print (removeNILMost '(NIL X NIL NIL Y NIL Z)))
+(print (removeNILMost '(X NIL (Y NIL Z) NIL)))
+(print (removeNILMost '(NIL (NIL) (X NIL Y) (NIL NIL) Z)))
+(print (removeNILMost '(NIL ( (((((NIL) NIL))))))))
+
+
+;;; reverseTop function
+;;; This function reverses a list at the top level.
+(defun reverseTop (L)
+  (let ((result nil))  ; Initialize an empty result list
+    (dolist (item L result)  ; Iterate over each item in L
+      (setq result (cons item result))))  ; Prepend each item to the result
+)
+
+;;; Testing reverseTop
+(print (reverseTop '(X Y Z)))
+(print (reverseTop '(X (Y Z (A)) (W))))
+
+
+;;; reverseAll function
+;;; This function reverses a list at all levels.
+(defun reverseAll (L)
+  (cond ((null L) nil)  ; If the list is empty, return nil
+        ((atom (car L)) (reverseTop L))  ; If the first element is an atom, reverse the top level
+        (t (cons (reverseAll (car L)) (reverseAll (cdr L)))))  ; Otherwise, reverse each sublist recursively
+)
+
+;;; Testing reverseAll
+(print (reverseAll '(X Y Z)))
+(print (reverseAll '(X (Y Z (A)) (W))))
+
+
+;;; palindrome function
+;;; This function checks if a list is a palindrome at the top level.
+(defun palindrome (L)
+  (equal L (reverseTop L)))  ; Compare the list with its reversed version
+
+;;; Testing palindrome
+(print (palindrome '(R A C E C A R)))
+(print (palindrome '(W A S I T A C A R O R A C A T I S A W)))
+(print (palindrome '(N I X O N)))
+
+
+;;; removeNILAll function
+;;; This function removes NIL elements from all levels of a list, including resulting NILs.
+(defun removeNILAll (L)
+  (cond ((null L) nil)
+        ((atom L) L)
+        ((null (car L)) (removeNILAll (cdr L)))
+        (t (let ((first (removeNILAll (car L)))
+                 (rest (removeNILAll (cdr L))))
+             (if (and (null first) (null rest))
+                 nil
+                 (if (null first) rest (cons first rest)))))))
+
+;;; Testing removeNILAll
+(print (removeNILAll '(NIL (NIL) (X NIL Y) (NIL NIL) Z)))
+(print (removeNILAll '(NIL ((((((NIL) NIL))))))))

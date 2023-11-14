@@ -1,0 +1,223 @@
+[1]> (load "Asg5Lisp.txt" :echo T :print T)
+;; Loading file Asg5Lisp.txt ...
+;;; removeNILTop function
+;;; This function takes a list and removes all NIL elements from the top level of the list.
+(defun removeNILTop (L)
+  (cond ((null L) nil)  ; If the list is empty, return nil
+        ((null (car L)) (removeNILTop (cdr L)))  ; If the first element is NIL, skip it
+        (t (cons (car L) (removeNILTop (cdr L)))))  ; Otherwise, keep the element and continue
+)
+REMOVENILTOP
+
+
+;;; Testing removeNILTop
+(print (removeNILTop '(NIL X NIL NIL Y NIL Z)))
+(X Y Z)
+(X Y Z)
+
+(print (removeNILTop '(X NIL Y NIL Z NIL)))
+(X Y Z)
+(X Y Z)
+
+(print (removeNILTop '(NIL (X NIL Y) (NIL NIL))))
+((X NIL Y) (NIL NIL))
+((X NIL Y) (NIL NIL))
+
+
+
+;;; removeNILMost function
+;;; This function takes a list and removes all NIL elements from any level of the list.
+(defun removeNILMost (L)
+  (cond ((null L) nil)  ; If the list is empty, return nil
+        ((atom (car L))  ; If the first element is an atom (not a list)
+          (if (null (car L)) (removeNILMost (cdr L))  ; If it's NIL, skip it
+              (cons (car L) (removeNILMost (cdr L)))))  ; Otherwise, keep it
+        (t (cons (removeNILMost (car L)) (removeNILMost (cdr L)))))  ; If it's a list, process it recursively
+)
+REMOVENILMOST
+
+
+;;; Testing removeNILMost
+(print (removeNILMost '(NIL X NIL NIL Y NIL Z)))
+(X Y Z)
+(X Y Z)
+
+(print (removeNILMost '(X NIL (Y NIL Z) NIL)))
+(X (Y Z))
+(X (Y Z))
+
+(print (removeNILMost '(NIL (NIL) (X NIL Y) (NIL NIL) Z)))
+(NIL (X Y) NIL Z)
+(NIL (X Y) NIL Z)
+
+(print (removeNILMost '(NIL ( (((((NIL) NIL))))))))
+((((((NIL))))))
+((((((NIL))))))
+
+
+
+;;; reverseTop function
+;;; This function reverses a list at the top level.
+(defun reverseTop (L)
+  (let ((result nil))  ; Initialize an empty result list
+    (dolist (item L result)  ; Iterate over each item in L
+      (setq result (cons item result))))  ; Prepend each item to the result
+)
+REVERSETOP
+
+
+;;; Testing reverseTop
+(print (reverseTop '(X Y Z)))
+(Z Y X)
+(Z Y X)
+
+(print (reverseTop '(X (Y Z (A)) (W))))
+((W) (Y Z (A)) X)
+((W) (Y Z (A)) X)
+
+
+
+;;; reverseAll function
+;;; This function reverses a list at all levels.
+(defun reverseAll (L)
+  (cond ((null L) nil)  ; If the list is empty, return nil
+        ((atom (car L)) (reverseTop L))  ; If the first element is an atom, reverse the top level
+        (t (cons (reverseAll (car L)) (reverseAll (cdr L)))))  ; Otherwise, reverse each sublist recursively
+)
+REVERSEALL
+
+
+;;; Testing reverseAll
+(print (reverseAll '(X Y Z)))
+(Z Y X)
+(Z Y X)
+
+(print (reverseAll '(X (Y Z (A)) (W))))
+((W) (Y Z (A)) X)
+((W) (Y Z (A)) X)
+
+
+
+;;; palindrome function
+;;; This function checks if a list is a palindrome at the top level.
+(defun palindrome (L)
+  (equal L (reverseTop L)))
+PALINDROME
+  ; Compare the list with its reversed version
+
+;;; Testing palindrome
+(print (palindrome '(R A C E C A R)))
+T
+T
+
+(print (palindrome '(W A S I T A C A R O R A C A T I S A W)))
+T
+T
+
+(print (palindrome '(N I X O N)))
+NIL
+NIL
+
+
+
+;;; removeNILAll function
+;;; This function removes NIL elements from all levels of a list, including resulting NILs.
+(defun removeNILAll (L)
+  (cond ((null L) nil)
+        ((atom L) L)
+        ((null (car L)) (removeNILAll (cdr L)))
+        (t (let ((first (removeNILAll (car L)))
+                 (rest (removeNILAll (cdr L))))
+             (if (and (null first) (null rest))
+                 nil
+                 (if (null first) rest (cons first rest)))))))
+REMOVENILALL
+
+
+;;; Testing removeNILAll
+(print (removeNILAll '(NIL (NIL) (X NIL Y) (NIL NIL) Z)))
+((X Y) Z)
+((X Y) Z)
+
+(print (removeNILAll '(NIL ((((((NIL) NIL))))))))
+NIL
+NIL
+
+;; Loaded file Asg5Lisp.txt
+#P"/mnt/c/Users/rmani/OneDrive/Documents/GitHub/assignments/Programming_Languages/assignments/assign05/Asg5Lisp.txt"
+
+[2]> (load "Asg5LispRun.txt" :echo T :print T)
+;; Loading file Asg5LispRun.txt ...
+;;;  #1 removeNILTop
+
+(removeNILTop '(NIL X NIL NIL Y  NIL Z))
+(X Y Z)
+
+(removeNILTop '(X NIL Y NIL Z NIL))
+(X Y Z)
+
+(removeNILTop '(NIL (X NIL Y) (NIL NIL)))
+((X NIL Y) (NIL NIL))
+
+
+;;; #2 removeNILMost
+
+(removeNILMost '(NIL X NIL NIL Y  NIL Z))
+(X Y Z)
+
+(removeNILMost '(X NIL (Y NIL Z) NIL))
+(X (Y Z))
+
+(removeNILMost '(NIL (NIL) (X NIL Y) (NIL NIL) Z))
+(NIL (X Y) NIL Z)
+
+(removeNILMost '(NIL ( (((((NIL) NIL)))))))
+((((((NIL))))))
+
+
+;;; #3 reverseTop
+
+(reverseTop '(X Y Z))
+(Z Y X)
+
+(reverseTop '(X (Y Z (A)) (W)))
+((W) (Y Z (A)) X)
+
+
+;;; #4 reverseALL
+
+(reverseAll '(X Y Z))
+(Z Y X)
+
+(reverseAll '(X (Y Z (A)) (W)))
+((W) (Y Z (A)) X)
+
+
+;;; #5 palindrome
+
+(palindrome '(R A C E C A R))
+T
+
+(palindrome '(W A S I T A C A R O R A C A T I S A W))
+T
+
+(palindrome '(N I X O N))
+NIL
+;; Loaded file Asg5LispRun.txt
+#P"/mnt/c/Users/rmani/OneDrive/Documents/GitHub/assignments/Programming_Languages/assignments/assign05/Asg5LispRun.txt"
+
+[3]> (load "Asg5LispExtraRun.txt" :echo T :print T)
+;; Loading file Asg5LispExtraRun.txt ...
+(removeNILAll '(NIL (NIL) (X NIL Y) (NIL NIL) Z))
+((X Y) Z)
+
+(removeNILAll '(NIL ( (((((NIL) NIL)))))))
+NIL
+
+(removeNILAll '(NIL (X (NIL) Y) ((NIL)) ))
+((X Y))
+
+(removeNILAll '(NIL (((X ((((((((((NIL)))))))))) Y) Z) W) (((NIL))) ))
+((((X Y) Z) W))
+;; Loaded file Asg5LispExtraRun.txt
+#P"/mnt/c/Users/rmani/OneDrive/Documents/GitHub/assignments/Programming_Languages/assignments/assign05/Asg5LispExtraRun.txt"
