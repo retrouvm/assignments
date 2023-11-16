@@ -1,6 +1,6 @@
 # Degree Coursework Repository
 
-Welcome to my assignments repository which serves as a comprehensive archive of my degree coursework across four pivotal computer science domains: Artificial Intelligence, Data Science, Programming Languages, and Operating Systems. This repository showcases a curated selection of projects, assignments, and research that encapsulates my academic journey and skill development in these areas. Dive into each folder to explore the intricate challenges I've tackled, the innovative solutions I've implemented, and the depth of knowledge I've gained through rigorous study and application.
+Welcome to my assignments repository which serves as a comprehensive archive of my degree coursework across four pivotal computer science domains: Artificial Intelligence, Data Science, Programming Languages, and Operating Systems. This repository showcases a curated selection of projects, assignments, and research that encapsulates my academic journey and skill development in these areas. Dive into each folder to explore the intricate challenges I've tackled, and the depth of knowledge I've gained through rigorous study and application.
 
 ## Courses
 
